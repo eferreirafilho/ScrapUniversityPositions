@@ -17,7 +17,7 @@ msg['To'] = toaddr
 msg['Subject'] = "Concurso UFSJ"
 server = smtplib.SMTP('smtp.gmail.com', 587)
 server.starttls()
-server.login(fromaddr, "am318700")
+server.login(fromaddr, "")
 
 #####UEMG (Only gets first post in UEMG website)
 #url = 'http://uemg.br/component/phocadownload/category/300-pss-processo-seletivo-simplificado'
